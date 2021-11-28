@@ -1,6 +1,13 @@
 import { City } from '../entities/city';
 import { CityNotFoundError } from '../errors/city-not-found.error';
 import { CityRepository } from './protocols/city-repository';
+import * as haversine from 'haversine-distance';
+
+
+interface havObject {
+  latitude: number,
+  longitude: number
+}
 
 export class SearchCityService {
   constructor(private readonly cityRepo: CityRepository) {}
@@ -22,4 +29,9 @@ export class SearchCityService {
 
     return filteredCities;
   }
+
+  async handleHaversine( a:havObject, b:havObject) {
+    return haversine(a, b);
+  }
+
 }
