@@ -40,6 +40,6 @@ Sendo até mesmo possível clicar no botão "Ver detalhes" para ver os clima do 
 
 ![detalhes dos climas dos dias seguintes](https://user-images.githubusercontent.com/55040458/143793870-71541478-2481-4606-87a8-75dbe937c3c5.png)
 
-Aproveite!
-José Vítor Andrade Marques
-Luis Henrique Saes Scandelai
+Aproveite!<br>
+José Vítor Andrade Marques<br>
+Luis Henrique Saes Scandelai<br>
