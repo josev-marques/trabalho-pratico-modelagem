@@ -29,9 +29,12 @@
         </ion-list>
       </ion-col>
       <ion-col>
-        <ion-text class="my_local" (click)="getNearCity()" color='primary'>
-          MEU LOCAL
-        </ion-text>
+        <ion-item class="my_local" (click)="getNearCity()">
+          <ion-icon name="compass-outline" color="primary"></ion-icon>
+          <ion-text color='primary'>
+            MEU LOCAL
+          </ion-text>
+        </ion-item>
       </ion-col>
     </ion-row>
   </ion-grid>
